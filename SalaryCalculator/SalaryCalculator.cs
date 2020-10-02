@@ -19,7 +19,7 @@ namespace SalaryCalculator
 
             foreach (var devReport in _developerReports)
             {
-                totalSalaries += devReport.HourlyRate * devReport.WorkingHours+1;
+                totalSalaries += devReport.HourlyRate * devReport.WorkingHours+100;
             }
 
             return totalSalaries;
